@@ -1,4 +1,3 @@
-# Pull official fastapi image
 FROM ubuntu:16.04
 # Installation:
 # Import MongoDB public GPG key AND create a MongoDB list file
