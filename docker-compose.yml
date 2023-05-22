@@ -1,0 +1,11 @@
+version: '3'
+services:
+  scraper:
+    build: . 
+    container_name: "facebookScraper"
+    ports:
+      - 8000:15400
+  db:
+    image: mongo:3.3
+    expose:
+     - 27017
